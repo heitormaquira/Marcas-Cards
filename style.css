@@ -25,7 +25,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem; /* Espaçamento entre os cards */
+    gap: 1rem; /* Espaçamento entre os cards */
 }
 
 .product {

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.7rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #f6f6f6;
+    color: #929292;
+    padding: 5rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color: #929292;
+}
+
+.all-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; /* Espaçamento entre os cards */
+}
+
+.product {
+    background: #ffffff;
+    color: #0041a5;
+    width: 18%;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinhar o conteúdo na parte superior */
+    text-align: left;
+    position: relative;
+    min-height: 400px; /* Altura mínima ajustada para acomodar o conteúdo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicionando transição ao box-shadow */
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao hover */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4.5rem; /* Espaço entre a imagem e o título */
+}
+
+.product-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    font-size: 1.0rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; /* Espaço abaixo do título */
+}
+
+.product-price {
+    font-size: 0.9rem;
+    color: #929292;
+    margin-bottom: 5rem; /* Espaço abaixo da descrição */
+}
+
+.product-btn {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #929292; /* Cor ajustada */
+    padding: 0.8rem 1.2rem; /* Tamanho do botão reduzido */
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    margin-top: auto; /* Empurra o botão para a parte inferior */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Adicionando transição ao botão */
+}
+
+.product-btn:hover {
+    background-color: #7a7a7a; /* Efeito hover */
+    transform: scale(1.05); /* Efeito de ampliação ao passar o mouse */
+}

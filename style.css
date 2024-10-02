@@ -35,7 +35,7 @@ body {
     gap: 1rem;
     width: 100%;
     max-width: 1200px; /* Define um limite máximo de largura */
-    padding: 2rem;
+    padding: 0rem;
     box-sizing: border-box;
 }
 

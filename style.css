@@ -15,7 +15,7 @@ html, body {
 body {
     font-size: 1.7rem;
     font-family: 'Merriweather Sans', sans-serif;
-    background: #f8f8f8;
+    background: #ffffff;
     color: #929292;
     display: flex;
     flex-direction: column;
@@ -52,6 +52,7 @@ body {
     text-align: left;
     min-height: 400px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .product:hover {

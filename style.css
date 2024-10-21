@@ -89,8 +89,8 @@ border: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 1.1rem;
     color: #ffffff;
     background-color: #929292;
-    padding: 0.8rem 1.2rem;
-    border-radius: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     display: inline-block;
     text-align: center;
     margin-top: auto;
@@ -98,6 +98,6 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .product-btn:hover {
-    background-color: #7a7a7a;
+    background-color: #0000a0;
     transform: scale(1.05);
 }
